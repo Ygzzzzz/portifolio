@@ -1,3 +1,27 @@
 .top {
-    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0px;
+    background-color: #34375a;
+    color: #fff;
 }
+
+.titulo-principal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.menu-links-top {
+    display: flex;
+    align-items: center;
+}
+
+.links-top {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+

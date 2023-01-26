@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Header from './componentes/Header/Header';
-import Main from './componentes/Main/Main';
+import Topo from './componentes/header/Topo';
+import Rodape from './componentes/rodape/rodape';
 
 function App() {
   return (
     <div className="App">
-      < Header/>
-      < Main/>
+      < Topo/>
+      < Rodape/>
     </div>
   );
 }
